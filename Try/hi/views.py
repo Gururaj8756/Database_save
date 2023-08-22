@@ -22,6 +22,12 @@ def create_user(request):
     return render(request, 'user_form.html')
 
 
+
+
+def welcome(request):
+    return render(request,'hi.html')
+
+
 # from django.contrib.auth import authenticate, login
 # from django.shortcuts import render, redirect
 

@@ -1,6 +1,7 @@
 from django.urls import path
-from . import views
-#login_page
+from hi.views import welcome,create_user
+#login_page welcome
 urlpatterns = [
-    path('', views.create_user, name='create_user'),
+    path('', welcome),
+    path('', create_user),
 ]
