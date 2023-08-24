@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'happy',
         'USER': 'root',
-        'PASSWORD': 'Pradip@26',
+        'PASSWORD': 'Isat123#',
         'HOST': 'localhost',   
         'PORT': '3306',
     }
@@ -124,3 +124,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'hi.User'
